@@ -107,6 +107,11 @@ require 'specinfra/command/fedora/v15/service'
 # Arista EOS (inherit Fedora)
 require 'specinfra/command/eos'
 require 'specinfra/command/eos/base'
+require 'specinfra/command/eos/base/file'
+require 'specinfra/command/eos/base/interface'
+require 'specinfra/command/eos/base/inventory'
+require 'specinfra/command/eos/base/package'
+require 'specinfra/command/eos/base/routing_table'
 
 # Amazon Linux (inherit RedHat)
 require 'specinfra/command/amazon'
